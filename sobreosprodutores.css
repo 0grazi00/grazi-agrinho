@@ -1,0 +1,9 @@
+body {
+    color: pink;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:hsl(120, 90%, 72%);
+}
