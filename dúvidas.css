@@ -1,0 +1,31 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:hsl(120, 90%, 72%);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px ;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+h1 {
+    color:blue;
+}
+
+nav a:hover {
+    color:blue;
+}
+

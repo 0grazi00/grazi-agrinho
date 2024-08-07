@@ -18,10 +18,13 @@ a{
 }
 
 h1 {
-    color:hsl(120, 100%, 77%);
+    color:blue;
 }
 
 nav a:hover {
-    color: hsl(120, 100%, 77%);
+    color: blue;
 }
+
+
+
 
