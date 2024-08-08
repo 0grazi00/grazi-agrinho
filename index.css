@@ -1,7 +1,36 @@
 body {
-    color: black;
-    background-color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(4, 0, 19);
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+.container-primeiro {       
+    height: 150vh;
+    display:grid;
+    width: 100%;
+}
+
+.container-segundo {
+    width: 2%;
 }
 
 ul {
@@ -9,16 +38,38 @@ ul {
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 16px ;
+    padding: 40px;
 }
 
-a{
-    color:black;
+img {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+    width: 200%;
+    height: 200vh;
+
+}
+
+.container-segundo {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 90px;
+    width: 90%;
+    height: 75vh;
+
+}
+
+a {
+    color: white;
     text-decoration: none;
 }
 
 h1 {
-    color:blue;
+    color: blue;
 }
 
 nav a:hover {
@@ -27,4 +78,58 @@ nav a:hover {
 
 
 
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
 
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__caixa{
+    margin: 0 10em;
+}
+.secundario__imagem{
+    width: 80%;
+}
