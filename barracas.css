@@ -28,3 +28,12 @@ h1 {
 nav a:hover {
     color: blue;
 }
+
+img {
+    display: block;
+    align-items: center;
+    padding: 0px;
+    max-width: 100%;
+    width: 200%;
+    height: auto;
+}
